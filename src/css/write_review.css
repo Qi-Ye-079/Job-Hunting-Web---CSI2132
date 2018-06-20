@@ -1,0 +1,69 @@
+body {
+    padding: 0;
+    margin: 0;
+    top: 0;
+}
+
+#centre {
+    width: 1000px;
+    height: 890px;
+    margin: 15px auto;
+    border: 2px solid limegreen;
+}
+
+#review-section {
+    box-sizing: border-box;
+    padding: 50px 40px;
+}
+
+#review-form {
+    width: 950px;
+    border-top: 2px solid deepskyblue;
+}
+
+.evaluation {
+    float: left;
+    width: 370px;
+    border-right: 2px deepskyblue solid;
+}
+
+.review {
+    float: right;
+    width: 500px;
+    padding: 20px 30px;
+}
+
+.comment {
+    box-sizing: border-box;
+    display: inline-block;
+    width: 500px;
+    height: 380px;
+    padding: 20px 30px;
+    font-size: 20px;
+    border-radius: 3px;
+    border: 1px darkred solid;
+}
+
+.evaluation-header {
+    display: block;
+    color: darkorange;
+    margin: 10px auto;
+    font-size: 25px;
+}
+
+.scroll-bar {
+    margin-bottom: 20px;
+}
+
+.review-submit {
+    height: 50px;
+    width: 400px;
+    background-color: limegreen;
+    color: white;
+    border: hidden;
+}
+
+.review-submit:hover {
+    cursor: pointer;
+    box-shadow: 0 5px 10px 0 grey;
+}

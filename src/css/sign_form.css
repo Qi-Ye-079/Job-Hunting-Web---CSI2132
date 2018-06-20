@@ -1,0 +1,86 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.signup {
+    display: block; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 2; /* Sit on top */
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    /*background-color: rgba(0,0,0,0.5);*/
+}
+
+.signup-content {
+    line-height: 20px;
+    background-color: white;
+    border: 3px solid forestgreen;
+    border-radius: 5px;
+    width: 700px;
+}
+
+
+.signup-input {
+    display: block;
+    width: 100%;
+    height: 40px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px;
+    text-indent: 16px;
+    background-color: lightgray;
+    border: 1px solid darkgray;
+}
+
+.signup-submit {
+    display: block;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255,0,0);
+    font-size: 30px;
+    color: white;
+    border: hidden;
+}
+
+.signup-submit:hover {
+    background-color: rgb(180,0,0);
+    box-shadow: 0 5px 10px 0 gray;
+}
+
+.select-list {
+    display: block;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-indent: 13px;
+    font-size: 20px;
+    border: 2px solid #cccccc;
+    border-radius: 10px;
+    width: 100%;
+    height: 45px;
+    background-color: lightgray;
+}
+
+.signup-input:focus,
+.select-list:focus {
+    border: 1px solid dodgerblue;
+}
+
+textarea {
+    display: block;
+    width: 100%;
+    height: 100px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    border: 1px solid darkgray;
+}
+
+textarea:focus {
+    border-color: dodgerblue;
+}
+
+.error {
+    display: block;
+    color: red!important;
+    padding-bottom: 15px;
+}
